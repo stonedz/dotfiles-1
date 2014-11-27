@@ -23,7 +23,7 @@ augroup color_scheme
   " Show trailing whitespace.
   autocmd ColorScheme * :hi ExtraWhitespace ctermbg=red guibg=red
 augroup END
-colorscheme molokai
+colorscheme badwolf
 set background=dark
 
 " Visual settings
@@ -200,7 +200,7 @@ let g:airline_powerline_fonts = 1 " TODO: detect this?
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#buffer_nr_format = '%s '
 let g:airline#extensions#tabline#buffer_nr_show = 1
-"let g:airline#extensions#tabline#fnamecollapse = 0
+let g:airline#extensions#tabline#fnamecollapse = 0
 "let g:airline#extensions#tabline#fnamemod = ':t'
 
 " NERDTree
@@ -241,7 +241,7 @@ Plug 'tpope/vim-unimpaired'
 Plug 'tpope/vim-eunuch'
 Plug 'scrooloose/nerdtree'
 Plug 'ctrlpvim/ctrlp.vim'
-Plug 'fatih/vim-go'
+" Plug 'fatih/vim-go'
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'pangloss/vim-javascript'
 Plug 'mhinz/vim-signify'
@@ -249,4 +249,5 @@ Plug 'mattn/emmet-vim'
 Plug 'mustache/vim-mustache-handlebars'
 Plug 'chase/vim-ansible-yaml'
 Plug 'wavded/vim-stylus'
+Plug 'scrooloose/nerdcommenter'
 call plug#end()
