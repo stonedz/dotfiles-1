@@ -49,7 +49,7 @@ set textwidth=80
 set colorcolumn=+1
 
 " Scrolling
-set scrolloff=3 " Start scrolling three lines before horizontal border of window.
+set scrolloff=5 " Start scrolling three lines before horizontal border of window.
 set sidescrolloff=3 " Start scrolling three columns before vertical border of window.
 
 " Indentation
@@ -190,6 +190,8 @@ augroup file_types
   autocmd BufRead .vimrc,*.vim set keywordprg=:help
 
 augroup END
+
+nnoremap gV `[v`]
 
 " PLUGINS
 
