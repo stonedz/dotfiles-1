@@ -1,1 +1,1 @@
-alias dw='cd /mnt/hgfs/Documents/Work/'
+alias dw='cd ~/winDocuments/Work'
