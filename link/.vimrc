@@ -250,4 +250,9 @@ Plug 'mustache/vim-mustache-handlebars'
 Plug 'chase/vim-ansible-yaml'
 Plug 'wavded/vim-stylus'
 Plug 'scrooloose/nerdcommenter'
+Plug 'vim-scripts/paredit.vim'
+Plug 'tpope/vim-fireplace'
+Plug 'guns/vim-clojure-static'
+
 call plug#end()
+

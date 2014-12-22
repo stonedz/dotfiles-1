@@ -49,7 +49,7 @@ plugins=(git debian docker )
 
 # User configuration
 
-export PATH="/home/stonedz/.rbenv/shims:/home/stonedz/.nave/installed/default/bin:/home/stonedz/.dotfiles/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/stonedz/.dotfiles/vendor/rbenv/bin"
+export PATH="/home/stonedz/.rbenv/shims:/home/stonedz/.nave/installed/default/bin:/home/stonedz/.dotfiles/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/stonedz/.dotfiles/vendor/rbenv/bin:/home/stonedz/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -81,7 +81,9 @@ export DOTFILES=~/.dotfiles
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-#
+alias dw="~/winDocuments/Work/"
+
+
 function git_prompt_info() {
   ref=$(git symbolic-ref HEAD 2> /dev/null) || return
     echo "$ZSH_THEME_GIT_PROMPT_PREFIX${ref#refs/heads/}$ZSH_THEME_GIT_PROMPT_SUFFIX"
