@@ -52,7 +52,7 @@ xscreensaver.Dialog.dateFont:           -*-dina-medium-r-*-*-10-*-*-*-*-*-*-*
     ! URxvt.urgentOnBell: true
     ! URxvt.visualBell: true
     URxvt.loginShell: true
-    URxvt.saveLines: 50
+    URxvt.saveLines: 550
     URxvt.internalBorder: 3
     URxvt.lineSpace: 0
 
