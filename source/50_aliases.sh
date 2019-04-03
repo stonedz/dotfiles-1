@@ -1,1 +1,1 @@
-alias dw='cd ~/winDocuments/Work'
+alias dw='cd ~/Work'
